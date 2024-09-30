@@ -1,0 +1,215 @@
+* {
+  text-decoration: none;
+}
+.border {
+  border: 2px solid;
+}
+.header_top {
+  background-color: rgb(0, 85, 255);
+  margin: auto;
+  /* padding: 0.5rem; */
+}
+.header_top > b {
+  color: white;
+}
+.header_top > i {
+  color: white;
+}
+.header_top > ul {
+  list-style: none;
+  margin: auto;
+  padding: 1rem;
+}
+.header_top > a {
+  color: silver;
+}
+.header_top ul li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+.header_top ul li a {
+  color: white;
+}
+.header_bottom {
+  margin: auto;
+  padding: 0.5rem;
+}
+.header_bottom img {
+  height: 5vh;
+  width: 15vw;
+}
+.header_bottom ul {
+  list-style: none;
+  margin: auto;
+  padding: 0.5rem;
+}
+.header_bottom ul li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+.header_bottom ul li a {
+  text-decoration: none;
+  color: black;
+}
+.header_bottom ul li a:hover {
+  color: blue;
+}
+.grey {
+  background-color: rgba(178, 169, 169, 0.138);
+}
+.templates_section {
+  padding: 1.5rem;
+}
+.templates_section ul {
+  margin-left: 3rem;
+}
+.templates_section ul li {
+  display: inline-block;
+}
+.templates_section ul li a {
+  text-decoration: none;
+  color: black;
+}
+.templates_section ul li a:hover {
+  text-decoration: underline;
+}
+.templates_section h3 {
+  padding-left: 3.1rem;
+}
+.ezuca_section ul {
+  margin: 0;
+  padding: 0;
+}
+.ezuca_section ul li {
+  display: inline-block;
+  margin: 0px 5px;
+}
+.ezuca_section_template_details{
+  line-height: 3;
+  padding: 2rem;
+}
+.ezuca_section button {
+  background-color: rgba(111, 36, 181, 0.613);
+  border-radius: 8%;
+  color: white;
+  width: 10vw;
+  height: 5.5vh;
+  margin: 2rem;
+}
+.ezuca_section button:hover{
+  background-color: rgba(111, 36, 181, 0.735);
+}
+.ezuca_section_description{
+  line-height: 2;
+  margin: auto;
+  padding: 2rem;
+}
+.membership_pricing{
+  text-transform: uppercase;
+  align-content: center;
+}
+.membership_pricing ul{
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 2;
+  align-items: center;
+}
+.membership_pricing ul li {
+  list-style: none;
+}
+.ezuca_section_pricing_ezuca_membership{
+  text-align: center;
+}
+.membership_head{
+  padding: 3rem;
+}
+
+.ezuca_section_pricing_ezuca_membership p:first-child {
+font-size: 1.5rem;
+font-weight: 100;
+}
+.membership_button button{
+  color: white;
+  height: 8vh;
+  width: 15vw;
+  border-radius: 10%;
+  background-color: rgb(48, 126, 194);
+}
+.ezuca_section_share_this button{
+  max-width: 12vw;
+  max-height: 5vh;
+}
+#fb {
+  color: white;
+  background: #2b94f0;
+  width: 12vw;
+  height: 5vh;
+}
+#tw {
+  color: white;
+  background: black;
+  width: 10vw;
+  height: 5vh;
+}
+#pin {
+  color: white;
+  background: rgb(208, 0, 0);
+  width: 11vw;
+  height: 5vh;
+}
+#lnk {
+  color: white;
+  background: #0359a4;
+  width: 11vw;
+  height: 5vh;
+}
+.ezuca_section_similar_templates {
+  padding: 2rem 0rem;
+}
+.similar_template_nav{
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+.similar_template_nav a {
+  text-decoration: none;
+  color: black;
+}
+.footer-top{
+  background: rgba(192, 192, 192, 0.074);
+  margin: auto;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.footer-top button {
+  padding: 1rem 3.5rem;
+  background-color: #2b94f0;
+  font-size: 1rem;
+  color: white;
+}
+.footer-bottom{
+  background-color: black;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  line-height: 3;
+  color: rgba(255, 255, 255, 0.694);
+}
+.footer-bottom ul li {
+  list-style: none;
+}
+.footer-bottom ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.694);
+}
+.footer-bottom img {
+  height: 5vh;
+  width: 15vw;
+}
+.footer-copyright{
+  padding-left: 2.5rem;
+}
+.footer-copyright a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.78);
+}
